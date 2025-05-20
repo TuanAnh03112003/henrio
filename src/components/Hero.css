@@ -4,11 +4,61 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  overflow: hidden;
-  background: url('https://www.googletagmanager.com/gtag/js?id=G-ZKBVC1X78F&cx=c&gtm=45He55g2v9117991082za200&tag_exp=101509157~103116026~103130495~103130497~103136993~103136995~103200004~103207802~103233427~103252644~103252646~103263073~103301114~103301116')'
+  background-color: #fff;
+  background-image: url('https://png.pngtree.com/png-clipart/20241111/original/pngtree-young-man-playing-acoustic-guitar-clipart-illustration-png-image_16913199.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spinner2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot1, .dot2, .bounce1, .bounce2, .bounce3 {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 3px;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.dot1 {
+  animation-delay: -0.32s;
+}
+
+.dot2 {
+  animation-delay: -0.16s;
+}
+
+.bounce1 {
+  animation-delay: 0s;
+}
+
+.bounce2 {
+  animation-delay: 0.16s;
+}
+
+.bounce3 {
+  animation-delay: 0.32s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  } 40% {
+    transform: scale(1);
+  }
 }
 
 .hero-overlay {

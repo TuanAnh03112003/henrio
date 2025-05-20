@@ -1,27 +1,37 @@
 .welcome-section {
-  background-color: #111;
-  color: #fff;
-  padding: 60px 20px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh; /* hoặc chiều cao phù hợp */
+  padding-top: 100px;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.welcome-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .welcome-content h2 {
-  font-size: 2.8rem;
-  margin-bottom: 15px;
-  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-family: 'Brush Script MT', cursive, sans-serif;
+  color: #b0b0b0;
 }
 
 .welcome-content p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  font-weight: 300;
-  color: #ccc;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .welcome-buttons {
@@ -51,12 +61,12 @@
 
 .secondary-btn {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+  color: #000;
+  border: 2px solid #000;
 }
 
 .secondary-btn:hover {
-  background-color: #fff;
+  background-color: #000;
   color: #ff0055;
 }
 

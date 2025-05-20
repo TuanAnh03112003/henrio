@@ -38,6 +38,10 @@
   color: #6B8E23;
 }
 
+.logo-market {
+  font-weight: normal;
+}
+
 .nav-links {
   display: flex;
   list-style: none;

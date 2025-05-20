@@ -15,6 +15,13 @@ function Hero() {
         <h3 className="hero-small-text">NO CODING REQUIRED</h3>
         <button className="hero-view-demos-btn">VIEW DEMOS</button>
       </div>
+      <rs-loader style={{backgroundColor: 'rgb(255, 255, 255)', display: 'none'}} className="spinner2">
+        <div className="dot1"></div>
+        <div className="dot2"></div>
+        <div className="bounce1"></div>
+        <div className="bounce2"></div>
+        <div className="bounce3"></div>
+      </rs-loader>
     </section>
   );
 }
