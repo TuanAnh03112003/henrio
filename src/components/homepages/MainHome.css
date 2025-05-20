@@ -1,0 +1,31 @@
+.main-home-section {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset margin and padding for all sections inside main-home-section */
+.main-home-section > section {
+  margin: 0;
+  padding: 60px 20px;
+}
+
+/* Container max width */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Additional spacing for Hero section */
+.hero-section {
+  padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-home-section > section {
+    padding: 40px 15px;
+  }
+}
