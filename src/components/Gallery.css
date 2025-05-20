@@ -18,16 +18,16 @@
 }
 
 .gallery-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .gallery-item {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
@@ -47,27 +47,12 @@
   transform: scale(1.1);
 }
 
-.gallery-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(180deg, transparent, rgba(255,255,255,0.8));
+.gallery-title {
+  font-size: 18px;
   color: #333;
-  padding: 15px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.gallery-item:hover .gallery-overlay {
-  opacity: 1;
-}
-
-.gallery-overlay h3 {
-  margin: 0 0 5px 0;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #000;
+  /* Giảm độ đậm của chữ */
+  text-align: center;
+  margin-top: 8px;
 }
 
 .gallery-overlay p {
@@ -89,4 +74,7 @@
     width: 90%;
     height: 180px;
   }
+}
+.gallery-item {
+  margin-bottom: 50px !important; /* Tăng khoảng cách giữa các ảnh */
 }

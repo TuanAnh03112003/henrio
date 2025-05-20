@@ -1,0 +1,31 @@
+.gallery-item {
+  height: auto !important;
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 1 !important;
+    margin-bottom: 120px !important; /* Tăng khoảng cách giữa các ảnh lên 200px */
+}
+
+.gallery-item:hover {
+  z-index: 10 !important;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.gallery-title {
+  display: block !important;
+  color: #333 !important;
+  text-align: center !important;
+  margin-top: 8px !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important; /* Đặt font-weight thành bình thường */
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    height: auto !important;
+  }
+}

@@ -1,42 +1,82 @@
 import React from "react";
 import "./Gallery.css";
+import "./GalleryOverride.css";
 
 const galleryItems = [
   {
-    title: "Main Home",
+ 
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/12/2019-12-11_18h55_18-450x289.jpg",
+    title: "Main Home",
   },
   {
-    title: "One-Page",
+  
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_10h26_34-450x289.jpg",
+      title: "One-Page",
   },
   {
-    title: "Band Home",
+ 
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_10h15_40-450x289.jpg",
+       title: "Band Home",
   },
   {
-    title: "Home Alt",
+   
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h40_08-450x289.jpg",
+     title: "Home Alt",
   },
   {
-    title: "Minimal",
+ 
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h38_54-450x289.jpg",
+     title: "Minimal",
   },
   {
-    title: "DJ/Event",
+  
     img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h39_28-450x289.jpg",
+      title: "DJ/Event",
   },
   {
-    title: "Festival",
-    img: "https://preview.themeforest.net/item/herion-a-wordpress-theme-for-the-music-industry/full_screen_preview/25233409/homepages/artist-slider.jpg",
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h40_36-450x289.jpg",
+      title: "Festival",
   },
-  {
-    title: "Shop Home",
-    img: "https://preview.themeforest.net/item/herion-a-wordpress-theme-for-the-music-industry/full_screen_preview/25233409/homepages/shop-home.jpg",
+   {
+  
+    img: "	https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_10h38_24-450x289.jpg",
+      title: "Record Studio",
   },
-  {
-    title: "Discography Home",
-    img: "https://preview.themeforest.net/item/herion-a-wordpress-theme-for-the-music-industry/full_screen_preview/25233409/homepages/discography-home.jpg",
+    {
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_10h37_53-450x289.jpg",
+      title: "Interactive Links",
+  },
+   {
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h34_28-450x289.jpg",
+      title: "Artist Slider",
+  },
+     {
+  
+    img: "	https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_10h37_11-450x289.jpg",
+      title: "Shop Home",
+  },
+    {
+  
+    img: "	https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h42_26-450x289.jpg",
+      title: "Discography Home",
+  },
+   {
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h35_56-450x289.jpg",
+      title: "Videos Home",
+  },
+    {
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h43_10-450x289.jpg",
+      title: "Blog Home",
+  },
+      {
+  
+    img: "https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/2019-11-27_11h41_06-450x289.jpg",
+      title: "Artist Metro",
   },
 ];
 
@@ -49,9 +89,7 @@ function Gallery() {
           {galleryItems.map((item, index) => (
             <div className="gallery-item" key={index}>
               <img src={item.img} alt={item.title} />
-              <div className="gallery-overlay">
-                <h3>{item.title}</h3>
-              </div>
+              <h3 className="gallery-title">{item.title}</h3>
             </div>
           ))}
         </div>
