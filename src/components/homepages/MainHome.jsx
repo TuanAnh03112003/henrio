@@ -6,6 +6,7 @@ import Gallery from "../Gallery";
 import Events from "../Events";
 import Newsletter from "../Newsletter";
 import Footer from "../Footer";
+import SocialIntegration from "../SocialIntegration";
 
 function MainHome() {
   return (
@@ -14,10 +15,11 @@ function MainHome() {
       <main className="main-home-section">
         <Hero />
         <Gallery />
-        <Events />
-        <Newsletter />
+        <SocialIntegration />
+        {/* <Events /> */}
+     
       </main>
-      <Footer />
+    
     </>
   );
 }

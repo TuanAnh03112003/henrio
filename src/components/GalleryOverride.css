@@ -3,7 +3,7 @@
   overflow: visible !important;
   position: relative !important;
   z-index: 1 !important;
-    margin-bottom: 120px !important; /* Tăng khoảng cách giữa các ảnh lên 200px */
+    margin-bottom: 120px !important; 
 }
 
 .gallery-item:hover {
@@ -29,3 +29,16 @@
     height: auto !important;
   }
 }
+.mailchimp-logo svg {
+width: 64px;
+height: 64px;
+fill: white !important;
+cursor: pointer;
+transition: transform 0.3s ease, fill 0.3s ease;
+margin: 0 10px;
+display: inline-block;
+}
+
+.mailchimp-logo:hover svg {
+transform: scale(1.2);
+fill: #1db954 !important;}
