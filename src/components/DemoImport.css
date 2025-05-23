@@ -1,0 +1,128 @@
+.demo-import-section {
+  display: flex;
+  background-color: #111;
+  color: white;
+  padding: 60px 40px;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.demo-import-container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.demo-import-title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.demo-import-subtitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.demo-import-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 350px;
+}
+
+.demo-import-button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: 0;
+}
+
+.demo-import-button:hover {
+  background-color: #c2185b;
+}
+
+.demo-import-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 20px;
+  transform: none;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: white;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  gap: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+.timeline-icon {
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+/* Icons as background images or inline SVG can be used */
+/* For simplicity, using emoji as placeholders */
+
+.mouse-icon::before {
+  content: "🖱️";
+}
+
+.import-icon::before {
+  content: "⬇️";
+}
+
+.heart-icon::before {
+  content: "❤️";
+}
+
+.timeline-text {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  user-select: none;
+}
