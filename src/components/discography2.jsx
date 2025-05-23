@@ -145,7 +145,7 @@ function Discography2() {
   marginLeft: "450px",
   marginRight: "auto",
   textAlign: "center",
- 
+ color: "#333"
 }}
 
           >

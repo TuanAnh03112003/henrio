@@ -7,7 +7,6 @@ import Events from "../Events";
 import Newsletter from "../Newsletter";
 import Footer from "../Footer";
 import SocialIntegration from "../SocialIntegration";
-
 function MainHome() {
   return (
     <>
@@ -17,9 +16,7 @@ function MainHome() {
         <Gallery />
         <SocialIntegration />
         {/* <Events /> */}
-     
       </main>
-    
     </>
   );
 }
