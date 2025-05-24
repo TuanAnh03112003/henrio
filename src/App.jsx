@@ -4,8 +4,8 @@ import Discography from "./components/Discography";
 import DemoImport from "./components/DemoImport";
 import Discography2 from "./components/discography2";
 import EasyToUseSection from "./components/EasyToUseSection";
-
-
+import SellYourMerch from "./components/SellYourMerch";
+import Discography3 from "./components/discography3";
 function App() {
   return (
     <>
@@ -14,7 +14,8 @@ function App() {
       <DemoImport />  
       <Discography2 />
        <EasyToUseSection />
-   
+   <SellYourMerch/>
+    <Discography3/>
     </>
   );
 }

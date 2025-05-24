@@ -1,0 +1,68 @@
+.sell-your-merch-section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.sell-your-merch-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-button {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.carousel-button:hover {
+  background-color: #333333;
+}
+
+.carousel-button svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-images {
+  display: flex;
+  gap: 50px; /* updated gap between images */
+  overflow: hidden;
+  max-width: 1300px;
+}
+
+.carousel-image-link {
+  flex-shrink: 0;
+}
+
+.carousel-image {
+  width: 422px;
+  height: 446px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05);
+}
