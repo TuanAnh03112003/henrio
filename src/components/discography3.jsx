@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import "./Discography.css";
+import "./Discography3.css";
 import { href } from "react-router-dom";
+import FeaturesSection from "./FeaturesSection";
+
 
 const releases = [
   {
@@ -125,6 +127,9 @@ function Discography3() {
 
       <section className="artist-pages-section">
       </section>
+
+      <FeaturesSection />
+    
     </>
   );
 }

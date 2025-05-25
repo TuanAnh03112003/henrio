@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .header {
   background-color: #222;
   color: #fff;
@@ -8,16 +14,26 @@
   z-index: 1000;
   font-family: 'Poppins', sans-serif;
   box-shadow: none;
+  height: 50px;
 }
 
 .header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  padding-right: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.header-buttons {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.header-buttons {
+  margin-left: auto;
 }
 
 .logo {
@@ -31,6 +47,8 @@
   gap: 6px;
   text-transform: lowercase;
   flex-shrink: 0;
+  margin-left: -1000px;
+ 
 }
 
 .logo-icon {
@@ -68,6 +86,9 @@
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
+  margin-left: auto;
+padding-right: 20px;
+margin-top: -40px;
 }
 
 .buy-now-btn {
@@ -79,6 +100,7 @@
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  text-transform: uppercase;
 }
 
 .buy-now-btn:hover {

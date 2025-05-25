@@ -6,6 +6,9 @@ import Discography2 from "./components/discography2";
 import EasyToUseSection from "./components/EasyToUseSection";
 import SellYourMerch from "./components/SellYourMerch";
 import Discography3 from "./components/discography3";
+import MusicThemesSince2011 from "./components/MusicThemesSince2011";
+import SaveMoneySection from "./components/SaveMoneySection";
+import Footer from "./components/Footer"
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
        <EasyToUseSection />
    <SellYourMerch/>
     <Discography3/>
+    <MusicThemesSince2011/>
+    <SaveMoneySection/>
+    <Footer/>
     </>
   );
 }

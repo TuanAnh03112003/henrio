@@ -1,0 +1,116 @@
+.save-money-section {
+  padding: 6rem 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.save-money-text {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #b0b0b0;
+  margin: 0;
+}
+
+.sub-title {
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #888;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.plugin-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.plugin-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  text-align: center;
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-card {
+  min-height: 600px !important;
+}
+
+.plugin-card:not(.side-card) {
+  min-height: 500px !important;
+}
+
+.plugin-icon {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.plugin-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.plugin-save {
+  font-size: 1.25rem;
+  color: #e91e63;
+  margin-bottom: 1rem;
+}
+
+.plugin-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: left;
+  width: 100%;
+}
+
+.plugin-features li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 20px;
+}
+
+.plugin-features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #e91e63;
+  font-weight: bold;
+}
